@@ -1,4 +1,4 @@
-sset encoding=utf8
+set encoding=utf8
 let g:vimgdb_debug_file = ""
 run macros/gdb_mappings.vim 
 
@@ -81,7 +81,6 @@ let g:pydiction_location = '/home/dinosoft/.vim/pydiction/complete-dict'
 set makeprg=g++\ -g\ %\ -o\ /tmp/a   
 autocmd FileType cpp nmap <C-N> :cn<cr>
 autocmd FileType cpp nmap <C-P> :cp<cr>
-color tango-desert
 
 :inoremap ( ()<ESC>i
 :inoremap ) <c-r>=ClosePair(')')<CR>
